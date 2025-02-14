@@ -19,7 +19,7 @@ export default function BibleGPT() {
     setResponse("");
 
     try {
-      const res = await axios.get("http://localhost:3000/ai/get-response", {
+      const res = await axios.get("https://ai-gpt-g80i.onrender.com/ai/get-response", {
         params: { prompt: question },
       });
 
