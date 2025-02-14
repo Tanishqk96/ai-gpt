@@ -1,6 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
 import React from "react";
+
 export default function BibleGPT() {
   const [question, setQuestion] = useState("");
   const [response, setResponse] = useState("");
@@ -31,21 +32,14 @@ export default function BibleGPT() {
   };
 
   return (
-<div
-  className="flex flex-col items-center justify-center min-h-screen bg-cover bg-center bg-no-repeat px-4"
-  style={{ backgroundImage:"url('./public/cross.jpg')" ,
-    backgroundSize: "100%", // Zoom out the image slightly
-    backgroundPosition: "60% center", // Shift the image to the right
-  }
-  } // Replace with actual URL
->
-
-      <div className="max-w-lg w-full bg-white text-gray-900 shadow-2xl rounded-3xl p-6">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-cover bg-center bg-no-repeat px-4">
+      <div className="max-w-lg w-full bg-blue-100 text-gray-900 shadow-2xl rounded-3xl p-6">
         <h1 className="text-3xl font-extrabold text-center text-yellow-600 mb-4">
           ✨ Ask Jesus ✨
         </h1>
         <p className="text-md text-gray-600 text-center mb-6">
-          "Ask, and it will be given to you; seek, and you will find."<b> (Matthew 7:7)</b>
+          "Ask, and it will be given to you; seek, and you will find."
+          <b> (Matthew 7:7)</b>
         </p>
 
         <div className="flex flex-col gap-4">
