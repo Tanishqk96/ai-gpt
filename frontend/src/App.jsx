@@ -33,7 +33,7 @@ export default function BibleGPT() {
   return (
 <div
   className="flex flex-col items-center justify-center min-h-screen bg-cover bg-center bg-no-repeat px-4"
-  style={{ backgroundImage:"url('./public/cross.webp')" ,
+  style={{ backgroundImage:"url('./public/cross.jpg')" ,
     backgroundSize: "100%", // Zoom out the image slightly
     backgroundPosition: "60% center", // Shift the image to the right
   }
